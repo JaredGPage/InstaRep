@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+
+body {
+  background-color: #e0f8ff;
+}
+
+.formIndex {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  font-family: Asap, sans-serif;
+  transition: 0.5s;
+}
+
+.formIndex a {
+  color: rgb(30, 199, 255);
+}
+
+.formIndex a:hover {
+  color: rgb(19, 83, 204);
+  cursor: pointer;
+}
+
+.formIndex:hover {
+  box-shadow: 0px 0px 20px rgb(85, 85, 85);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.match {
+  border: 1px greenyellow;
+}
+
+.notMatch {
+  border: 1px red;
+}
+
+input[type=submit],
+button {
+  width: 100px;
+  background-color: rgb(113, 175, 233);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover,
+button:hover {
+  background-color: rgb(47, 142, 231);
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* 
+.formIndex p {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+} */
+
+.userProf {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  text-align: left;
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  font-family: Asap, sans-serif;
+}
+
+#editBtn {
+  position: absolute;
+  top: 5px;
+  right: 80px;
+}
+
+#editBtnSettings {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+#editBtnSettings:hover {
+  cursor: pointer;
+  background: rgb(209, 214, 228);
+}
+
+.userProf h3 {
+  text-align: left;
+  position: relative;
+}
+
+.userProf p {
+  font-family: Asap, sans-serif;
+  font-size: medium;
+  font-weight: 200;
+}
+
+p {
+  font-family: Asap, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+}
+.userFeed {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  font-family: Asap, sans-serif;
+}
+
+/* .customFileInput::-webkit-file-upload-button {
+    visibility: hidden;
+  } */
+
+.customFileInput::before {
+  content: 'Select files';
+  display: inline-block;
+  background-color: rgb(113, 175, 233);
+  color: white;
+  border-radius: 4px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.customFileInput:hover::before {
+  background-color: rgb(47, 142, 231);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic {
+  background-color: white;
+  border-radius: 1px;
+  background-size: 80%;
+  border: 1px solid #d3d3d3;
+  margin: auto;
+  width: 600px;
+  padding: 10px;
+  text-align: left;
+}
+
+.userPic {
+  background-color: white;
+  border-radius: 1px;
+  background-size: 80%;
+  border: 1px solid #d3d3d3;
+  margin: auto;
+  width: 200px;
+  padding: 10px;
+  text-align: left;
+}
+
+textarea {
+  padding: 8px;
+  width: 400px;
+  margin: auto;
+  border-color: #d3d3d3;
+  outline: none;
+  background-color: white;
+  color: black;
+  letter-spacing: 2px;
+  height:100px;
+  resize: none;
+}
+
+.bio {
+  position: absolute;
+  left: 170px;
+  top: 5px;
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-family: Asap, sans-serif;
+}
+
+.userNav {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+}
+
+.userNav ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.userNav li{
+  float: left;
+  width: 150px;
+}
+
+.userNav li a{
+  display: block;
+  color: rgb(109, 109, 109);
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  font-family: Asap, sans-serif;
+  transition: all 1s ease;
+}
+
+.userNav li a:hover{
+  background-color: #e0f8ff;
+  cursor: pointer;
+}
