@@ -29,3 +29,10 @@ function showUserFeed() {
     document.getElementById("profUploadBio").style.display = "none";
     document.getElementById("getUserFeed").style.display = "block";
 }
+
+function logout() {
+    var r = confirm("Do you really want to logout?");
+    if(r){
+        window.location.href = "php/logout.php";
+    }
+}

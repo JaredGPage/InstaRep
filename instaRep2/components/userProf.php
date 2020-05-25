@@ -18,7 +18,7 @@
             <button type="button" id="upprofile" onclick="showUploadPf()">Edit</button>
         </div>
         <div id="editBtnSettings">
-            <a onclick="showFeed()"><img src="settings2.png" style="width:50px;height:50px;"></a>
+            <a onclick="logout()"><img src="settings2.png" style="width:50px;height:50px;"></a>
         </div>
               
     </div>
